@@ -4,16 +4,7 @@ import "./App.css";
 import MovieCard from "./MovieCard";
 import SearchIcon from "./search.svg";
 
-const API_URL = "http://www.omdbapi.com/?i=tt3896198&apikey=c483df6e";
-
-const movie1 = {
-  Title: "Spiderman in Cannes",
-  Year: "2016",
-  imdbID: "tt5978586",
-  Type: "movie",
-  Poster:
-    "https://m.media-amazon.com/images/M/MV5BZDlmMGQwYmItNTNmOS00OTNkLTkxNTYtNDM3ZWVlMWUyZDIzXkEyXkFqcGdeQXVyMTA5Mzk5Mw@@._V1_SX300.jpg",
-};
+const API_URL = "https://www.omdbapi.com/?i=tt3896198&apikey=c483df6e";
 
 const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
